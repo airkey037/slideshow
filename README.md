@@ -11,5 +11,6 @@ Jest to program typu FREEWARE Open-Source, co oznacza, że:
 - Można zobaczyć kod źródłowy i dowolnie go edytować
 - Można NIEODPŁATNIE udostępnić ten program innym (lecz NIE WOLNO go sprzedawać)
 
-Dzięki za wybranie SlideShow\n
+Dzięki za wybranie SlideShow
+
 ~ Airkeyooo
