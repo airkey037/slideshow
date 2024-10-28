@@ -1,0 +1,53 @@
+<html lang="pl">
+    <head>
+        <meta charset="utf-8">
+        <title>SlideShow</title>
+        <link rel="stylesheet" href="main.css">
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <div id="mainbx">
+            <div id="preview" class="disp"></div>
+            <div class="divider"></div>
+            <div id="program" class="disp"></div>
+            <div class="clb"></div>
+            <div id="control">
+                <div id="scene"></div>
+                <div id="import">
+                    Importowanie: 
+                    <input type="text" placeholder="Tytuł" id="tytul">
+                    <button id="submit" onclick="addSlide();">Dodaj</button>
+                    <button id="usun" onclick="delitem();">Usuń</button>
+                    <button id="clearlist" onclick="clearlist();">Wyczyść</button>
+                    <br>
+                    <textarea placeholder="Treść" id="tresc"></textarea>
+                </div>
+                <div id="themes">
+                    Tło: <input type="color" id="bgcolor" value="#000000">
+                    Czcionka: <input type="color" id="txcolor" value="#ffffff">
+                    <input type="number" id="txsize" value="20" min=10 max="50">
+                    <input type="checkbox" id="justing">Justowanie
+                    <button id="turnColors" onclick="turnColors();">Odwróć</button>
+                    <button id="colorapply" onclick="colorApply();">Zastosuj</button>
+                    <button id="lorem" onclick="loremIpsum();">Test</button>
+                </div>
+                <div id="importscheme">
+                    Importowanie z pliku:
+                    <input type="file" id="scheme" accpet=".slf">
+                    <button id="schemeupload" onclick="importFile();">Załaduj</button>
+                    <button id="schemedownload" onclick="downloadFile();">Eksportuj</button>
+                </div>
+                <div id="buttons">
+                    <div class="bts" onclick="moveslide('down');">Dół</div>
+                    <div class="bts" onclick="moveslide('up');">Góra</div>
+                    <div class="bts" onclick="moveslide('left');">Wstecz</div>
+                    <div class="btr" onclick="moveslide('right');">Następny</div>
+                    <div class="btp" onclick="power();">Włącz</div>
+                    <div class="clb"></div>
+                </div>
+                <div class="clb"></div>
+            </div>
+        </div>
+    </body>
+</html>

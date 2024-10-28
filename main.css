@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    background-color: #333;
+}   
+
+.clb {
+    clear: both;
+}
+
+#mainbx {
+    border: 1px solid white;
+    width: 1004px;
+    height: 703px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.disp {
+    background-color: #000000;
+    color: white;
+    width: 441px;
+    height: 360px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    float: left;
+}
+
+#control {
+    border: 1px solid blue;
+    width: 1002px;
+    height: 298px;
+}
+
+#scene {
+    border: 1px solid yellow;
+    height: 298px;
+    width: 400px;
+    margin-left: 1px;
+    float: left;
+}
+
+#import {
+    width: 596px;
+    height: 175px;
+    margin-left: 1px;
+    border: 1px solid turquoise;
+    float: left;
+}
+
+#buttons {
+    width: 596px;
+    height: 64px;
+    margin-left: 1px;
+    border: 1px solid magenta;
+    float: left;
+}
+
+.bts {
+    border: 1px solid orange;
+    height: 62px;
+    width: 98px;
+    float: left;
+    margin-left: 1px;
+}
+
+.btr {
+    border: 1px solid whitesmoke;
+    height: 62px;
+    width: 144px;
+    float: left;
+    margin-left: 1px;
+}
+
+.btp {
+    border: 1px solid red;
+    height: 62px;
+    width: 142px;
+    float: left;
+    margin-left: 1px;
+}
+
+#tresc {
+    width: 594px;
+    height: 149px;
+    resize: none;
+}
+
+#themes {
+    float: left;
+    height: 22px;
+    border: 1px solid #00ff00;
+    width: 596px;
+    padding-bottom: 3px;
+    font-size: 18px;
+}
+
+.scobj {
+    border: 1px solid magenta;
+    width: 390px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+#txsize {
+    width: 40px;
+}
+
+.scselected {
+    border: 1px solid turquoise;
+}
+
+.divider {
+    width: 2px;
+    background-color: white;
+    height: 400px;
+    float: left;
+}
+
+#importscheme {
+    height: 28px;
+    border: 1px solid limegreen;
+    width: 596px;
+    float: left;
+}
+
+#scheme {
+    width: 255px;
+}
